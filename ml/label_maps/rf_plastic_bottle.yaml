@@ -1,0 +1,4 @@
+map:
+  hdpe: botella_plastico
+  pet: botella_plastico
+  caps: objeto_pequeno

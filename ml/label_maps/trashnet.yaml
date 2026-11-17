@@ -1,0 +1,9 @@
+# TrashNet es de CLASIFICACIÓN (una carpeta por clase, sin cajas). Se usa con format: folder,
+# que genera una caja que cubre casi toda la imagen. Úsalo solo como complemento de bajo peso.
+map:
+  cardboard: carton
+  glass: vidrio
+  metal: metal
+  paper: papel
+  plastic: null
+  trash: null

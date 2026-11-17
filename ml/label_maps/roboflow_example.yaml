@@ -1,0 +1,24 @@
+# Plantilla para datasets de Roboflow Universe (export "YOLOv8"). Ajusta las claves a los
+# nombres reales que aparezcan en el data.yaml de CADA dataset descargado (en minúsculas).
+map:
+  glass: vidrio
+  glass bottle: botella_vidrio
+  glass-bottle: botella_vidrio
+  plastic bottle: botella_plastico
+  plastic-bottle: botella_plastico
+  pet bottle: botella_plastico
+  bottle: botella
+  cardboard: carton
+  carton: carton
+  paper: papel
+  metal: metal
+  can: metal
+  aluminum can: metal
+  knife: objeto_peligroso
+  syringe: objeto_peligroso
+  needle: objeto_peligroso
+  battery: objeto_peligroso
+  blade: objeto_peligroso
+  bottle cap: objeto_pequeno
+  cigarette: objeto_pequeno
+  cap: objeto_pequeno

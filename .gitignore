@@ -1,0 +1,17 @@
+# Entornos virtuales y Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Node / Frontend (evita subir los ~70MB de librerías instalables)
+node_modules/
+frontend/node_modules/
+dist/
+build/
+
+# Datos crudos pesados (1.2 GB) y logs de entrenamiento
+raw/
+runs/
+*.zip

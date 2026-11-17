@@ -1,0 +1,4 @@
+sources:
+  - {name: rf_taco,       format: yolo, path: raw/rf_objeto_pequeno/TACO_v2i_yolov8,                                  label_map: ml/label_maps/rf_taco.yaml}
+  - {name: rf_glassbot,   format: yolo, path: raw/rf_botella_vidrio_botella_plastico/glass_bottle_v5i_yolov8,        label_map: ml/label_maps/rf_glass_bottle.yaml}
+  - {name: rf_plasticbot, format: yolo, path: raw/rf_botella_vidrio_botella_plastico/plastic_bottle_v1i_yolov8,      label_map: ml/label_maps/rf_plastic_bottle.yaml}

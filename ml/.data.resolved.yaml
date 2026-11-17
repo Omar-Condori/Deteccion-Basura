@@ -1,0 +1,14 @@
+path: /Users/omarcondori/Desktop/Detector-basura/datasets/waste
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: vidrio
+  1: carton
+  2: papel
+  3: metal
+  4: botella
+  5: botella_vidrio
+  6: botella_plastico
+  7: objeto_peligroso
+  8: objeto_pequeno

@@ -1,0 +1,18 @@
+# Configuración del dataset en formato Ultralytics YOLO.
+# train.py genera automáticamente una copia con `path` absoluto, así que no importa desde dónde ejecutes.
+path: ../datasets/waste   # relativo a este archivo
+train: images/train
+val: images/val
+test: images/test
+
+# El orden DEBE coincidir con backend/config.py -> CLASSES
+names:
+  0: vidrio
+  1: carton
+  2: papel
+  3: metal
+  4: botella
+  5: botella_vidrio
+  6: botella_plastico
+  7: objeto_peligroso
+  8: objeto_pequeno

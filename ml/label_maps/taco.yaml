@@ -1,0 +1,34 @@
+# TACO (60 categorías, COCO JSON) -> 9 clases del proyecto. null = descartar.
+# Las claves se comparan en minúsculas. Revisa annotations.json de tu descarga por si algún nombre difiere.
+map:
+  glass bottle: botella_vidrio
+  clear plastic bottle: botella_plastico
+  other plastic bottle: botella_plastico
+  broken glass: vidrio
+  glass cup: vidrio
+  glass jar: vidrio
+  food can: metal
+  drink can: metal
+  aluminium foil: metal
+  scrap metal: metal
+  metal lid: metal
+  aerosol: objeto_peligroso
+  battery: objeto_peligroso
+  metal bottle cap: objeto_pequeno
+  plastic bottle cap: objeto_pequeno
+  pop tab: objeto_pequeno
+  cigarette: objeto_pequeno
+  paper straw: objeto_pequeno
+  other carton: carton
+  egg carton: carton
+  drink carton: carton
+  corrugated carton: carton
+  meal carton: carton
+  pizza box: carton
+  toilet tube: carton
+  magazine paper: papel
+  normal paper: papel
+  paper bag: papel
+  wrapping paper: papel
+  tissues: papel
+  paper cup: papel

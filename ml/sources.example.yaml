@@ -1,0 +1,25 @@
+# Copia a ml/sources.yaml y ajusta las rutas. Cada fuente se convierte a las 9 clases.
+# format: yolo   -> carpeta Roboflow/YOLOv8 (data.yaml + images/labels)
+# format: coco   -> annotations .json estilo COCO (TACO, ZeroWaste)
+# format: folder -> TrashNet (carpeta por clase, sin cajas)
+sources:
+  - name: taco
+    format: coco
+    path: raw/taco                     # contiene data/ y annotations.json
+    annotations: raw/taco/data/annotations.json
+    images_root: raw/taco/data
+    label_map: ml/label_maps/taco.yaml
+  - name: zerowaste
+    format: coco
+    path: raw/zerowaste
+    annotations: raw/zerowaste/train/labels.json
+    images_root: raw/zerowaste/train/data
+    label_map: ml/label_maps/zerowaste.yaml
+  - name: trashnet
+    format: folder
+    path: raw/trashnet/dataset-resized
+    label_map: ml/label_maps/trashnet.yaml
+  - name: rf_botellas
+    format: yolo
+    path: raw/roboflow_botellas
+    label_map: ml/label_maps/roboflow_example.yaml

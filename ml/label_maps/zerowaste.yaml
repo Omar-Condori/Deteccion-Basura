@@ -1,0 +1,6 @@
+# ZeroWaste-f (COCO JSON): cardboard, soft_plastic, rigid_plastic, metal
+map:
+  cardboard: carton
+  metal: metal
+  soft_plastic: null
+  rigid_plastic: null
